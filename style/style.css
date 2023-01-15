@@ -69,6 +69,9 @@ nav ul li a{
     font-weight:500;
     color:#424242;
 }
+nav ul li a:hover{
+    border-bottom:3px solid #FF900E;
+}
 
 
 /*-------- banner-section-style----------- */
@@ -400,6 +403,9 @@ input:focus ,textarea:focus{
             grid-template-columns: repeat(1,1fr);
             row-gap: 25px;
         }
+        .feature-info:hover {
+            transform:rotate(360deg);
+        }
         .all-sponsors{
             flex-wrap:wrap;
             justify-content: center;
@@ -419,6 +425,7 @@ input:focus ,textarea:focus{
         }
         .contact-form{
             padding-right:5px;
+            padding-top:50px;
         }
         .contact-sub-title{
             text-align: center;
